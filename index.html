@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivaay Infotech</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script>
+      var currentPath = window.location.pathname;
+      var cssFiles = [
+        "assets/css/bootstrap.min.css",
+        "assets/css/style.css",
+        "assets/css/font-awesome.css",
+        "assets/css/font-awesome.min.css",
+        "assets/css/responsive.css",
+        "assets/css/colors1.css",
+        "assets/css/animate.css",
+        "assets/revolution/css/settings.css",
+        "assets/revolution/css/layers.css",
+        "assets/revolution/css/navigation.css",
+        "assets/css/register_style.css",
+      ];
+      if (currentPath.includes("/register")) {
+        cssFiles.forEach(function (file) {
+          if ((file == "assets/css/register_style.css") || (file == "assets/css/line.css")) {
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = file;
+            document.head.appendChild(link);
+          }
+        })
+      } else {
+        cssFiles.forEach(function (file) {
+          if (file !== "assets/css/register_style.css") {
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = file;
+            document.head.appendChild(link);
+          }
+        })
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

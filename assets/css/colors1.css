@@ -1,0 +1,66 @@
+#navbar_menu ul ul li a:focus,#navbar_menu ul ul li a:hover,.bg_load,.carousel-indicators .active,.full_slider_inner,.header_top,.social_icon_style_2 ul li a:focus,.social_icon_style_2 ul li a:hover,.theme_color_bg,a.btn.dark_gray_bt:focus,a.btn.dark_gray_bt:hover{
+	background:#039ee3;
+	background-size:100% 100%;
+	border:none
+}
+.theme_bg{
+	background:#039ee3
+}
+#navbar_menu>ul>li a.active,#navbar_menu>ul>li:focus>a,#navbar_menu>ul>li:hover>a,.footer-menu li a:focus,.footer-menu li a:hover,footer p a:focus,footer p a:hover,footer ul.social_icons li a:focus,footer ul.social_icons li a:hover{
+	color:#039ee3
+}
+.contact_us_section,.footer_mail-section .field button.button_custom,footer h2::after{
+	background:#039ee3
+}
+.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0{
+	background:#039ee3!important
+}
+a.btn.main_bt,button.btn.main_bt{
+	background:#17a5e9;
+	border:none
+}
+a.btn.main_bt:focus,a.btn.main_bt:hover,button.btn.main_bt:focus,button.btn.main_bt:hover{
+	background:#25d8ed;
+	background-size:100% 100%;
+	color:#fff
+}
+a.btn.dark_gray_bt:focus,a.btn.dark_gray_bt:hover{
+	color:#fff
+}
+a.btn.light_btn,button.btn.light_btn{
+	background:#a864a8
+}
+a.btn.light_btn:focus,a.btn.light_btn:focus button.btn.light_btn:hover,a.btn.light_btn:hover{
+	background:#fff;
+	color:#632e62;
+	border-color:#fff
+}
+#navbar_menu ul ul,.social_icon_style_2 ul li a:focus,.social_icon_style_2 ul li a:hover{
+	border-color:#039ee3
+}
+.btn.light_theme_bt:focus,.btn.light_theme_bt:hover{
+	background:#222;
+	color:#fff;
+	border:solid #222 1px
+}
+a.border_btn_white_border,button.border_btn_white_border{
+	background:0 0;
+	border:solid #fff 1px
+}
+a.border_btn_white_border:focus,a.border_btn_white_border:hover,button.border_btn_white_border:focus,button.border_btn_white_border:hover{
+	background:#fff;
+	border:solid #fff 1px
+}
+a.btn.white_btn,button.btn.white_btn{
+	color:#111;
+	text-transform:none;
+	text-shadow:none
+}
+a.btn.white_btn:hover,button.btn.white_btn:hover{
+	color:#fff;
+	text-transform:none;
+	background:#111
+}
+.tp-caption.tp-shape.tp-shapewrapper.rs-parallaxlevel-0{
+	background-color:rgba(0,0,0,.4)!important
+}
